@@ -1,0 +1,14 @@
+.covidInput {
+     display: flex;
+     justify-content:center ;
+     line-height: 2;
+    }
+#countries {
+        margin-left: 20px;
+        width: 30%;
+    }
+.mySeparator{
+    height: 0.5px;
+    width: 80%;
+    background-color: whitesmoke;
+}

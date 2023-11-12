@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <div class="display-4 text-center"><h2>Latest COVID 19 Satitics</h2></div>
+    <div class="APIContainer">
+     <div class="covidInput">
+        <p>Select a country:</p>
+        <select class="form-control" id="countries">
+            <option>Select a country</option>
+        </select>
+     </div> 
+     <hr class="mySeparator">
+     <div class="text-center">
+        <p class="marginTopButtom" id="covidNewConfirmed">New Confirmed Cases:</p>
+        <p class="marginTopButtom" id="covidTotalConfirmed">Total Confirmed Cases:</p>
+        <p class="marginTopButtom" id="covidNewDeaths">New Deaths: /</p>
+        <p class="marginTopButtom" id="covidLastUpdate">Last Updated: </p>
+
+     </div>
+ </div>
+
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
